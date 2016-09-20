@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountyAndTownshipSample", "CountyAndTownshipSample\CountyAndTownshipSample.csproj", "{52B62133-9365-4DFA-8553-353D4D76B0F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountyAndTownshipSample.Model", "CountyAndTownshipSample.Model\CountyAndTownshipSample.Model.csproj", "{B62F56B1-81DF-467D-ADC2-3B3ECB160493}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lib.CountyAndTownship", "lib.CountyAndTownship\lib.CountyAndTownship.csproj", "{C6178816-350D-4A69-ACC5-DBFC57BF0B8A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "預設資料", "預設資料", "{AD757FA5-D2B7-4C65-8C46-FFAD89DE2297}"
+	ProjectSection(SolutionItems) = preProject
+		預設資料\縣市及鄉鎮區域.sql = 預設資料\縣市及鄉鎮區域.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{52B62133-9365-4DFA-8553-353D4D76B0F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52B62133-9365-4DFA-8553-353D4D76B0F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52B62133-9365-4DFA-8553-353D4D76B0F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52B62133-9365-4DFA-8553-353D4D76B0F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B62F56B1-81DF-467D-ADC2-3B3ECB160493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B62F56B1-81DF-467D-ADC2-3B3ECB160493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B62F56B1-81DF-467D-ADC2-3B3ECB160493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B62F56B1-81DF-467D-ADC2-3B3ECB160493}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6178816-350D-4A69-ACC5-DBFC57BF0B8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6178816-350D-4A69-ACC5-DBFC57BF0B8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6178816-350D-4A69-ACC5-DBFC57BF0B8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6178816-350D-4A69-ACC5-DBFC57BF0B8A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

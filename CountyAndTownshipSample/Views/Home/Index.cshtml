@@ -1,0 +1,15 @@
+﻿@model CountyAndTownshipSample.Models.HomeViewModels
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h3>範例：完整地址（郵遞區號+縣市+鄉鎮市區）</h3>
+    <p class="lead">@Model.Address</p>
+</div>
+
+<div class="jumbotron">
+    <h3>範例：下拉選單</h3>
+    @Html.DropDownListFor(m => m.AreaId, Model.CountyAndTownship.AreaListItem, optionLabel: "請選擇區域")
+    @Html.DropDownListFor(m => m.CountyId, Model.CountyAndTownship.CountyListItem, optionLabel: "請選擇鄉鎮市區")
+</div>
